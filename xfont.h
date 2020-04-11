@@ -1,0 +1,10 @@
+extern void putchar8x8(int col,int row,char ch,int colour);
+extern void putstring8x8(int col,int row,char *string,int colour);
+extern void putchar8x12(int col,int row,char ch,int colour);
+extern void putstring8x12(int col,int row,char *string,int colour);
+extern void putchar16x16(int col,int row,char ch,int colour);
+extern void putstring16x16(int col,int row,char *string,int colour);
+extern void freadfont8x8(int fileid);
+extern void freadfont8x12(int fileid);
+extern void freadfont12x16(int fileid);
+extern void freadfont16x16(int fileid);

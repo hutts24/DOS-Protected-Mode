@@ -1,0 +1,12 @@
+extrn resetmouse:near;(void)
+;extrn showcursor;(void)
+;extrn hidecursor;(void)
+;extrn mousestatus;(int *x,int *y,int *btn1,int *btn2)
+;extrn setcursorpos;(int x,int y)
+;extrn getbtnpressinfo;(int btn,unsigned *num,int *lastx,int *lasty)
+;extrn getbtnreleaseinfo;(int btn,unsigned *num,int *lastx,int *lasty)
+;extrn setboundaries;(int minx,int miny,int maxx,int maxy)
+;extrn setgraphicscursor;(int hx,int hy,char *masks)
+;extrn getsensitivity;(int *horiz,int *vert,int *threshold)
+;extrn setsensitivity;(int horiz,int vert,int threshold)
+
