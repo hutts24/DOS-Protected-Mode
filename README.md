@@ -1,5 +1,5 @@
 # DOS-Protected-Mode
-This is an assembly library which I wrote in the early 1990's for writing DOS protected mode games.  It provides mechanisms to activate protected mode on Intel 386 and later processors from within DOS, allocate memory via 32 bit addressing and accelerated functions to control PC hardware.
+This is an assembly library which I wrote in the early 1990's for writing DOS protected mode games.  It provides mechanisms to activate protected mode on Intel 386 and later processors from within DOS, allocate memory via 32 bit addressing and accelerated functions to control PC hardware.  It is intended to be used with the C programming language and all functions are invoked through standard calling convention.
 
 Features include:
 
